@@ -1,0 +1,6 @@
+%YAML:1.0
+EMIStxyo: !!opencv-matrix
+   rows: 2
+   cols: 3
+   dt: d
+   data: [ .Nan, .Nan, .Nan, .Nan, .Nan, .Nan ]

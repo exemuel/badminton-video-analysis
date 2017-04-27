@@ -1,0 +1,6 @@
+%YAML:1.0
+INITtso: !!opencv-matrix
+   rows: 1
+   cols: 2
+   dt: d
+   data: [ 5.0000000000000000e-01, 5.0000000000000000e-01 ]

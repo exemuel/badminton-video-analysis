@@ -1,0 +1,6 @@
+%YAML:1.0
+TRANStso: !!opencv-matrix
+   rows: 2
+   cols: 2
+   dt: d
+   data: [ 1., 5.2073370540152520e-31, 1., 1.0000000000000001e-30 ]
