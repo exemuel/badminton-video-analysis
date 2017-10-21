@@ -368,10 +368,10 @@ namespace player {
 		std::ofstream ofs;
 		ofs.open("results/playerpositions.txt");
 		for (size_t i = 0; i < playerpositions.size(); i++) {
-			ofs << playerpositions[i][1] << " " << playerpositions[i][2] << " "
-				<< playerpositions[i][3] << " " << playerpositions[i][4] << " "
-				<< playerpositions[i][5] << " " << playerpositions[i][6] << " "
-				<< playerpositions[i][7] << " " << playerpositions[i][8] << " "
+			ofs << playerpositions[i][0] << " " << playerpositions[i][1] << " "
+				<< playerpositions[i][2] << " " << playerpositions[i][3] << " "
+				<< playerpositions[i][4] << " " << playerpositions[i][5] << " "
+				<< playerpositions[i][6] << " " << playerpositions[i][7] << " "
 				<< std::endl;
 
 		}
