@@ -71,7 +71,7 @@ namespace courtmodel {
 				float lambda_1 = lamdas.at<cv::Vec6f>(j, i)[0];
 				float lambda_2 = lamdas.at<cv::Vec6f>(j, i)[1];
 
-				// 0.04f is tunable sensitivity parameter, in the literature values in the range 0.04¡V0.15 have been reported as feasible
+				// 0.04f is tunable sensitivity parameter, in the literature values in the range 0.04Â¡V0.15 have been reported as feasible
 				Mc.at<float>(j, i) = lambda_1*lambda_2 - 0.04f*pow((lambda_1 + lambda_2), 2);
 
 				// if Mc (almost equal) 0 and Mc (almost equal) 0 then this pixel (i, j) has no features of interest, modify the pixel to 0
@@ -198,7 +198,7 @@ namespace courtmodel {
 			}
 		}
 
-		for (size_t j = 0; j < vecs.size(); j++) {
+		for (size_t j = 0; j < vecs.size()-1; j++) {
 			double pt1x = vecs[j][0];
 			double pt1y = vecs[j][1];
 			double pt2x = vecs[j][2];
